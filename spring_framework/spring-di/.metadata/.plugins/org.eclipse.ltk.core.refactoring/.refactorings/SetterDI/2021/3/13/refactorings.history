@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;beans.xml&apos; to &apos;CollectionDI/src/main/java/kr.co.sh.config&apos;&#x0D;&#x0A;- Original project: &apos;SetterDI&apos;&#x0D;&#x0A;- Destination element: &apos;CollectionDI/src/main/java/kr.co.sh.config&apos;&#x0D;&#x0A;- Original element: &apos;beans.xml&apos;" description="Copy file" destination="=CollectionDI/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;kr.co.sh.config" element1="src/main/java/kr/co/sh/config/beans.xml" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1616827001938" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,20 @@
+package kr.co.sh.main;
+
+import org.springframework.beans.factory.xml.XmlBeanFactory;
+import org.springframework.core.io.ClassPathResource;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+
+	}
+	
+	// BeanFactory- deprecated
+	public static void test1() {
+		// 패키지 내에 있을 때
+		ClassPathResource res = new ClassPathResource("kr/co/sh/config/beans.xml");
+		// IoC container
+		XmlBeanFactory factory = new XmlBeanFactory(res);
+	}
+
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+						http://www.springframework.org/schema/beans/spring-beans.xsd">
+						
+	<!-- xml 로딩시 객체 자동 생성 in IoC 컨테이너 -->	
+	<!-- 현재 진도상 id 속성 없이 객체 주소값 참조 못한다. - next.자동주입 -->		
+	<bean class='kr.co.sh.beans.TestBean'/>	
+	
+	<!-- id 속성에 이름 부여하면 getBane 메서드 통해 객체의 주소값 받아 사용 -->
+	<!-- Singleton : 로딩시 객체 생성, 한 번이상 생성되지 않는다. -->					
+	<bean id='test1' class='kr.co.sh.beans.TestBean'/>	
+	
+	<!-- lazy-init="true" : xml 로딩시 객체 생성되지 않는다. getBean()호출시 생성 (생략시 false)-->
+	<bean class='kr.co.sh.beans.TestBean' lazy-init="true"/>	
+</beans>

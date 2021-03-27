@@ -1,0 +1,17 @@
+package kr.co.sh.main;
+
+import kr.co.sh.beans.HelloWorld;
+import kr.co.sh.beans.HelloWorldEn;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		HelloWorld hello1 = new HelloWorldEn();
+		callMethod(hello1);
+	}
+
+	
+	public static void callMethod(HelloWorld hello) {
+		hello.sayHello();
+	}
+}

@@ -1,0 +1,7 @@
+package kr.co.sh.beans;
+
+public class TestBean2 {
+
+	private DataBean2 data1;
+	private DataBean2 data2;
+}

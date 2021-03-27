@@ -1,0 +1,26 @@
+package kr.co.sh.main;
+
+import org.springframework.beans.factory.xml.XmlBeanFactory;
+import org.springframework.core.io.ClassPathResource;
+
+import kr.co.sh.beans.TestBean;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		test1();
+	}
+	
+	// BeanFactory- deprecated
+	public static void test1() {
+		// 패키지 내에 있을 때
+		ClassPathResource res = new ClassPathResource("kr/co/sh/config/beans.xml");
+		// IoC container
+		XmlBeanFactory factory = new XmlBeanFactory(res);
+		
+		// ClassPathResource로는 기본적으로 자동으로 bean 객체 생성 안됨
+		TestBean t1 = factory.getBean("t1", TestBean.class);
+		System.out.println("t1 :\t", t1);
+	}
+
+}

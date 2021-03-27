@@ -1,0 +1,5 @@
+package kr.co.sh.processor;
+
+public class TestBeanPostProcessor {
+
+}

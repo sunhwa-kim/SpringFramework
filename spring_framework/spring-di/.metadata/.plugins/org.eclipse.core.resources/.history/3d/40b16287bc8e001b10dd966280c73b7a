@@ -1,0 +1,40 @@
+package kr.co.sh.main;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import kr.co.sh.beans.TestBean;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("kr/co/sh/config/beans.xml");
+
+		// java로 객체 생성
+		TestBean t1 = new TestBean();
+		t1.printData();
+
+		System.out.println("  ---------  -----------");
+		
+		TestBean t2 = new TestBean(222);
+		t2.printData();
+		
+		System.out.println("  ---------  -----------");
+
+		TestBean t3 = new TestBean(22.22);
+		t3.printData();
+		
+		System.out.println("  ---------  -----------");
+		
+		
+		TestBean obj1 = ctx.getBean("obj1", TestBean.class);
+		obj1.printData();
+		
+		System.out.println("  ---------  -----------");
+		TestBean obj2 = ctx.getBean("obj2", TestBean.class);
+		obj2.printData();
+		
+		
+		ctx.close();
+	}
+
+}

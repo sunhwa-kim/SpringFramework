@@ -1,0 +1,18 @@
+package kr.co.sh.beans;
+
+public class TestBean {
+
+	private int data1;
+	private double data2;
+	private boolean data3;
+	private String data4;
+
+	public int getData1() {
+		return data1;
+	}
+
+	public void setData1(int data1) {
+		this.data1 = data1;
+	}
+	
+}

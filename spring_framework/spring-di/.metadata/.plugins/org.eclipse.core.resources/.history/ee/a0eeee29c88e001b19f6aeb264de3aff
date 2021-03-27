@@ -1,0 +1,27 @@
+package kr.co.sh.main;
+
+import java.util.List;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import kr.co.sh.beans.TestBean;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("kr/co/sh/config/beans.xml");
+		
+		TestBean t1 = ctx.getBean("t1", TestBean.class);
+		List<String> list1 = t1.getList1();
+		
+		for(String str : list1) {
+			System.out.printf("list1 : %s\n", str);
+		}
+
+		
+		
+		
+		ctx.close();
+	}
+
+}

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.springframework.context.support.ClassPathXmlApplicationContext"/>
+    <fullyQualifiedTypeName name="kr.co.sh.beans.TestBean1"/>
+    <fullyQualifiedTypeName name="kr.co.sh.beans.TestBean2"/>
+    <fullyQualifiedTypeName name="kr.co.sh.beans.TestBean3"/>
+</qualifiedTypeNameHistroy>

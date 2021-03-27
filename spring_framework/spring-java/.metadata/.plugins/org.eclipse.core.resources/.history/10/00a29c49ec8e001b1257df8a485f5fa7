@@ -1,0 +1,9 @@
+package kr.co.sh.main;
+
+public class ManClass {
+
+	public static void main(String[] args) {
+
+	}
+
+}

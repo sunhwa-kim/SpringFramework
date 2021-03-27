@@ -1,0 +1,28 @@
+package kr.co.sh.beans;
+
+public class TestBean {
+
+	private int data1;
+	private double data2;
+	private String data3;
+	
+	public TestBean() {
+		System.out.println("1 기본 생성자");
+		this.data1 = 0;
+		this.data2 = 0.0;
+		this.data3 = null;
+	}
+	
+	public TestBean() {
+		System.out.println("1 생성자");
+		this.data1 = 0;
+		this.data2 = 0.0;
+		this.data3 = null;
+	}
+	
+	public void printData() {
+		System.out.printf(" > 1 : %d\n", data1);
+		System.out.printf(" > 2 : %f\n", data2);
+		System.out.printf(" > 3 : %s\n", data3);
+	}
+}

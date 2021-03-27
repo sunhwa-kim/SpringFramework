@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+						http://www.springframework.org/schema/beans/spring-beans.xsd">
+						
+	<bean id='obj1' class='kr.co.sh.beans.TestBean' lazy-init='true'/>
+	
+	<!-- 주입 -->
+	<bean id='obj2' class='kr.co.sh.beans.TestBean' lazy-init='true'>
+		<constructor-arg value='100' type='int'/>
+	</bean>
+	
+	<bean id='obj3' class='kr.co.sh.beans.TestBean' lazy-init='true'>
+		<constructor-arg value='11.11' type='double' />
+	</bean>
+	
+	<bean id='obj4' class='kr.co.sh.beans.TestBean' lazy-init='true'>
+		<constructor-arg value='문자열2' />
+	</bean>
+	
+	<bean id='obj5' class='kr.co.sh.beans.TestBean' lazy-init='true'>
+		<constructor-arg value='100' type='int'/>
+		<constructor-arg value='11.11' type='double' />
+		<constructor-arg value='문자열2' type='java.lang.String'/>
+	</bean>
+						
+</beans>

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;HelloWorldEn.java&apos; to &apos;PolymorPhism/src/kr.co.sh.beans&apos;&#x0D;&#x0A;- Original project: &apos;PolymorPhism&apos;&#x0D;&#x0A;- Destination element: &apos;PolymorPhism/src/kr.co.sh.beans&apos;&#x0D;&#x0A;- Original element: &apos;kr.co.sh.beans.HelloWorldEn.java&apos;" description="Copy compilation unit" destination="/src&lt;kr.co.sh.beans" element1="/src&lt;kr.co.sh.beans{HelloWorldEn.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1616750659129" units="1" version="1.0"/>
+</session>

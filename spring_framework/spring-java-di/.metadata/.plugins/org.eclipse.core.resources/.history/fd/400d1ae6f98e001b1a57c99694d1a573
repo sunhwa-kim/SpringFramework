@@ -1,0 +1,18 @@
+package kr.co.sh.main;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+
+		ClassPathXmlApplicationContext ctx1 = new ClassPathXmlApplicationContext("kr/co/sh/config/beans.xml");
+		
+		
+		
+		ctx1.close();
+		
+		System.out.println(" ======== =========== =========== ===========");
+	}
+
+}

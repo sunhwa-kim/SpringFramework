@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+						http://www.springframework.org/schema/beans/spring-beans.xsd">
+						
+	<!-- 직접 주입 -->
+	<bean id='obj1' class='kr.co.sh.beans.TestBean1'>
+		<property name='data1' ref='data_bean1'/>
+		<property name='data2' ref='data_bean1'/>
+	</bean>					
+	
+	<bean id='data_bean1' class='kr.co.sh.beans.DataBean1' scope='prototype'/>
+					
+					
+	<!-- 자동 주입 : 이름 -->
+	<bean id='obj2' class='kr.co.sh.beans.TestBean1' autowire="byName"/>
+	
+	<bean id='data1' class='kr.co.sh.beans.DataBean1'/>
+	<bean id='data2' class='kr.co.sh.beans.DataBean1'/>
+	
+	
+	<!-- 자동 주입 : 타입 -->
+	<bean id='obj3' class='kr.co.sh.beans.TestBean2' autowire="byType" />
+	<!-- 하단 id 충돌나서 - obj3 확인시는 주석 풀기 -->
+	<!-- <bean class='kr.co.sh.beans.DataBean2'/>  --> 
+	<!-- <bean class='kr.co.sh.beans.DataBean2'/> --> <!-- 타입 중복시 에러 확인용  -->
+	
+	
+	<!-- 생성자 주입 : 직접 주입 -->
+	<bean id='data_bean2' class='kr.co.sh.beans.DataBean2'/>
+	<bean id='obj4' class='kr.co.sh.beans.TestBean3'>
+		<constructor-arg ref='data_bean2' index='0' />
+		<constructor-arg ref='data_bean2' index='1' />
+	</bean>
+	
+	
+	<!-- 생성자 주입 : 자동주입 -->
+	<bean id='obj5' class='kr.co.sh.beans.TestBean3' autowire="constructor"/>
+	
+	
+	<!-- 생성자 주입 : 기본형 -->
+	<bean id='obj6' class='kr.co.sh.beans.TestBean3'>
+		<constructor-arg value='100' index='0' type='int'/>
+		<constructor-arg value='문자열' index='1' />
+		<constructor-arg ref='data_bean2' index='2'/>
+		<constructor-arg ref='data_bean2' index='3'/>
+	</bean>
+	
+	<!-- 생성자 주입 : 자동주입시 기본형 타입 주입X, 객체 주소값 제외한 경우는 직접 명시 -->
+	<bean id='obj7' class='kr.co.sh.beans.TestBean3' autowire="constructor">
+		<constructor-arg value='200' index='0' type='int' />
+		<constructor-arg value='문자열2' index='1' />
+	</bean>
+</beans>

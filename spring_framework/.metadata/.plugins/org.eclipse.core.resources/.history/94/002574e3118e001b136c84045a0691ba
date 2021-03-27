@@ -1,0 +1,6 @@
+package kr.co.sh.beans;
+
+public class Snippet {
+	public void sayHello()
+}
+

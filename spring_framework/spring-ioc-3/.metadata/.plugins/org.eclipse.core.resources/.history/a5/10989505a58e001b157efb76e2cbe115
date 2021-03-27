@@ -1,0 +1,14 @@
+package co.kr.sh.main;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("co/kr/sh/confing/beans.xml");
+		
+		
+		ctx.close();
+	}
+
+}

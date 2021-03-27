@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+						http://www.springframework.org/schema/beans/spring-beans.xsd">
+						
+	<!-- xml 로딩시 객체 자동 생성 in IoC 컨테이너 -->	
+	<!-- 현재 진도상 id 속성이용한 getBean의 객체 주소값 받아 사용 - next.자동주입 -->		
+	<bean class='kr.co.sh.beans.TestBean'/>						
+</beans>
