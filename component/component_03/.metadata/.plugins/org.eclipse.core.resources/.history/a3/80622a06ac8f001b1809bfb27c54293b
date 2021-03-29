@@ -1,0 +1,27 @@
+package kr.co.sh.main;
+
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import kr.co.sh.beans.TestBean1;
+import kr.co.sh.config.BeanConfigClass;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(BeanConfigClass.class);
+		
+		TestBean1 t1 = ctx.getBean(TestBean1.class);
+		System.out.printf("> t1.data1 : %s\n", t1.getData1());
+		// 이름 통한 주입 @Qualifier("obj2")
+		System.out.printf("> t1.data2 : %s\n", t1.getData2());
+		// 이름 통한 주입 @Resource
+		System.out.printf(">");
+		
+		
+		ctx.close();
+
+	}
+
+}

@@ -1,0 +1,24 @@
+package kr.co.sh.beans;
+
+import org.springframework.beans.factory.annotation.Required;
+
+public class TestBean1 {
+
+	private int data1;
+
+	// 생성자 이용한 반드시 주입 프로퍼티
+//	public TestBean1(int data) {
+//		this.data1 = data;
+//	}
+	
+	
+	public int getData1() {
+		return data1;
+	}
+
+	@Required  // 반드시 주입
+	public void setData1(int data1) {
+		this.data1 = data1;
+	}
+
+}

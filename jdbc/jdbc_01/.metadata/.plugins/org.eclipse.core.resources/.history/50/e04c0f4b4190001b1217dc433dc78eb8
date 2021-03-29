@@ -1,0 +1,12 @@
+package kr.co.sh.beans;
+
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
+@Component
+@Scope("prototype")  // 쿼리 날릴 때마다 생성
+public class JdbcBean {
+
+	private int int_data;
+	private String str_data;
+}

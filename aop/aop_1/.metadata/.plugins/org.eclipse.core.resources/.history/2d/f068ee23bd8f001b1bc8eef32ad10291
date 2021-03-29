@@ -1,0 +1,25 @@
+package kr.co.sh.advisor;
+
+import org.aspectj.lang.ProceedingJoinPoint;
+
+public class AdvisorClass {
+
+	public void beforeMethod() {
+		System.out.println(" > before method 호출");
+	}
+	
+	public void afterMethod() {
+		System.out.println(" > after method 호출");
+	}
+	
+	// 둘러싸기 - 해당 메서드의 전/후 경계 애매모호한 ...원래 메서드 호출
+	public Object aroundMethod(ProceedingJoinPoint pjp) throws Throwable {
+		System.out.println(" > arount method 호출 1");
+		
+		// 원래 메서드 호출
+		Object obj = pjp.proceed();
+		
+		System.out.println(" > arount method 호출 2");
+		return obj;
+	}
+}

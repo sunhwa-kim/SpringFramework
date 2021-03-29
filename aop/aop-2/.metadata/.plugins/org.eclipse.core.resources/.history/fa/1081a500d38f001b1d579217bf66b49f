@@ -1,0 +1,36 @@
+package kr.co.sh.main;
+
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import kr.co.sh.beans.TestBean1;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+
+		ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("kr/co/sh/config/beans.xml");
+		
+		TestBean1 xml1 = ctx.getBean("xml1", TestBean1.class);
+		xml1.method1();
+		
+		System.out.println(" ----------------------------------- ");
+		
+//		xml1.method2();  // 관심사 설정 되지 않음메서드 = weaving X - 관심사 차이 확인
+		xml1.method1(100);  // weaving O/X 확인
+		
+		System.out.println(" ----------------------------------- ");
+		
+		xml1.method1("문자열");
+		
+		System.out.println(" ----------------------------------- ");
+		
+		xml1.method1(1000,2000);
+		
+		System.out.println(" ----------------------------------- ");
+		
+		xml1.method1(100, "문자열");
+		
+		ctx.close();
+	}
+
+}

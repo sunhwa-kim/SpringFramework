@@ -1,0 +1,8 @@
+package kr.co.sh.beans;
+
+import org.springframework.stereotype.Component;
+
+@Component  // bean 등록
+public class TestBean1 {
+
+}

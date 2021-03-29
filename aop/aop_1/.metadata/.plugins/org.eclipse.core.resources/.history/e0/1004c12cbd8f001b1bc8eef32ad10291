@@ -1,0 +1,8 @@
+package kr.co.sh.beans;
+
+public class TestBean {
+
+	public void method1() {  // 관심사
+		System.out.println(" > method 1 호출");
+	}
+}

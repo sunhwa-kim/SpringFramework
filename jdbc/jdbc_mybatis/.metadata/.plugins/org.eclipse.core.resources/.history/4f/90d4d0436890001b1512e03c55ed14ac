@@ -1,0 +1,5 @@
+package kr.co.sh.mapper;
+
+public interface MapperInterface {
+
+}

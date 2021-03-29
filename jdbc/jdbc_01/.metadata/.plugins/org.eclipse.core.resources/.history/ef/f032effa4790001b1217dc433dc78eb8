@@ -1,0 +1,5 @@
+package kr.co.sh.db;
+
+public class JdbcDAO {
+
+}

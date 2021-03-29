@@ -1,0 +1,12 @@
+package kr.co.sh.beans;
+
+import org.springframework.stereotype.Component;
+
+@Component("t3")
+public class TestBean2 {
+	
+	public TestBean2() {
+		System.out.println(" > 2 생성자");
+	}
+
+}

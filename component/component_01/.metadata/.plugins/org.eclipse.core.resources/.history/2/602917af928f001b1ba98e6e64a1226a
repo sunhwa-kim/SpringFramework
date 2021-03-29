@@ -1,0 +1,26 @@
+package kr.co.sh.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+
+import kr.co.sh.beans.TestBean1;
+import kr.co.sh.beans.TestBean2;
+
+@Configuration
+public class BeanConfigClass {
+
+	@Bean
+	public TestBean1 java1() {  // 타입
+		return new TestBean1();
+	}
+	
+	@Bean
+	public TestBean2 java2() {  // 이름
+		return new TestBean2();
+	}
+	
+	@Bean
+	public TestBean2 java3() {
+		return new TestBean2();
+	}
+}

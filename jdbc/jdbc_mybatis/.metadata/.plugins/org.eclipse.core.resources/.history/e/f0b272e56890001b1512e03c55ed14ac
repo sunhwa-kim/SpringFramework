@@ -1,0 +1,25 @@
+package kr.co.sh.mapper;
+
+import java.util.List;
+
+import org.apache.ibatis.annotations.Insert;
+import org.apache.ibatis.annotations.Select;
+
+import kr.co.sh.beans.JdbcBean;
+
+public interface MapperInterface {
+
+	// 변수명과 컬럼명이 다를 때만 이용
+	/*
+	@Results({
+		@Result(column = "int_data", property = "int_data"),
+		@Result(column = "str_data", property = "str_data")
+	})
+	*/
+	@Select("select int_data, str_data from jdbc_table")
+	List<JdbcBean> select_data();
+	
+	@Insert("intsert into jdbc_table (int_data, str_data) values (#{int_data},#{str_data}?)")
+	void insert_data(JdbcBean bean);
+	
+}

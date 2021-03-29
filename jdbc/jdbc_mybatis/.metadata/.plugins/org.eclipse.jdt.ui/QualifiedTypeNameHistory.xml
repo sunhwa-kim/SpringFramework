@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Configuration"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.AnnotationConfigApplicationContext"/>
+    <fullyQualifiedTypeName name="kr.co.sh.config.BeanConfigClass"/>
+    <fullyQualifiedTypeName name="org.springframework.stereotype.Component"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.Scope"/>
+    <fullyQualifiedTypeName name="org.springframework.context.annotation.ComponentScan"/>
+    <fullyQualifiedTypeName name="org.apache.ibatis.session.SqlSessionFactory"/>
+    <fullyQualifiedTypeName name="org.apache.commons.dbcp2.BasicDataSource"/>
+    <fullyQualifiedTypeName name="org.mybatis.spring.SqlSessionFactoryBean"/>
+    <fullyQualifiedTypeName name="org.mybatis.spring.mapper.MapperFactoryBean"/>
+    <fullyQualifiedTypeName name="kr.co.sh.mapper.MapperInterface"/>
+    <fullyQualifiedTypeName name="org.apache.ibatis.annotations.Results"/>
+    <fullyQualifiedTypeName name="org.apache.ibatis.annotations.Result"/>
+    <fullyQualifiedTypeName name="org.apache.ibatis.annotations.Select"/>
+    <fullyQualifiedTypeName name="java.awt.List"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="kr.co.sh.beans.JdbcBean"/>
+</qualifiedTypeNameHistroy>

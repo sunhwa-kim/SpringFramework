@@ -1,0 +1,19 @@
+package kr.co.sh.main;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import kr.co.sh.config.BeanConfigClass;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+		
+		AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(BeanConfigClass.class);
+		
+		
+		
+		ctx.close();
+
+	}
+
+}

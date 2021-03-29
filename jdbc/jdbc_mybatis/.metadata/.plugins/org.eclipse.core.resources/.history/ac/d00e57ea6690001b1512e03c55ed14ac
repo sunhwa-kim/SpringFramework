@@ -1,0 +1,22 @@
+package kr.co.sh.config;
+
+import org.apache.commons.dbcp2.BasicDataSource;
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+@ComponentScan(basePackages = "kr.co.sh.beans")
+public class BeanConfigClass {
+
+	// dbcp - datasource 등록 : DB 접속 정보
+	@Bean
+	public BasicDataSource dataSource() {
+		BasicDataSource source = new BasicDataSource();
+		source.setDriverClassName("com.mysql.cj.jdbc.Driver");
+		source.setUrl("jdbc:mysql://localhost:3306/practice?serverTimezone=UTC");
+		source.setUsername("root");
+		source.setPassword("shroot");
+		return source;
+	}
+}

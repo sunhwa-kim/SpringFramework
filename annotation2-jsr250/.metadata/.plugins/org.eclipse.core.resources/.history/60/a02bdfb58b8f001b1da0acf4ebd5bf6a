@@ -1,0 +1,13 @@
+package kr.co.sh.beans;
+
+import javax.annotation.Resource;
+
+public class TestBean5 {
+	
+	@Resource
+	private DataBean1 data1;
+	
+	@Resource
+	private DataBean2 data2;
+
+}

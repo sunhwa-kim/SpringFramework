@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+						http://www.springframework.org/schema/beans/spring-beans.xsd
+						http://www.springframework.org/schema/context
+						http://www.springframework.org/schema/context/spring-context.xsd
+						http://www.springframework.org/schema/aop
+						http://www.springframework.org/schema/aop/spring-aop.xsd">
+						
+	<bean id='xml1' class='kr.co.sh.beans.TestBean1'/>
+	<bean id='xml2' class='kr.co.sh.beans.TestBean2'/>
+	
+	<bean id='advisor1' class='kr.co.sh.advisor.AdvisorClass'/>
+	
+	<aop:config>
+		<aop:aspect ref='advisor1'>
+		<!-- weaving 확인 -->
+			<!-- 반환 타입 void, kr.co.sh.beans.TestBean1 클래스, method1, 매개변수 없음 -->
+			<!-- <aop:pointcut expression="execution(void kr.co.sh.beans.TestBean1.method1())" id="point1"/> -->
+			
+			<!-- 반환 타입 void, kr.co.sh.beans.TestBean1 클래스, method1, 매개변수 정수형 1개 -->
+			<!-- <aop:pointcut expression="execution(void kr.co.sh.beans.TestBean1.method1(int))" id="point1"/> -->
+			
+			<!-- 반환 타입 void, kr.co.sh.beans.TestBean1 클래스, method1, 매개변수 String 1개 -->
+			<!-- <aop:pointcut expression="execution(void kr.co.sh.beans.TestBean1.method1(java.lang.String))" id="point1"/> -->
+			
+			<!-- 반환 타입 void, kr.co.sh.beans.TestBean1 클래스, method1, 매개변수 모든타입 1개 (없는 것, 2개이상 X) -->
+			<!-- <aop:pointcut expression="execution(void kr.co.sh.beans.TestBean1.method1(*))" id="point1"/> -->
+			
+			<!-- 반환 타입 void, kr.co.sh.beans.TestBean1 클래스, method1, 매개변수 정수형 2개 -->
+			<!-- <aop:pointcut expression="execution(void kr.co.sh.beans.TestBean1.method1(int,int))" id="point1"/> -->
+			
+			<!-- 반환 타입 void, kr.co.sh.beans.TestBean1 클래스, method1, 매개변수 정수형1, String1 -->
+			<!-- <aop:pointcut expression="execution(void kr.co.sh.beans.TestBean1.method1(int,java.lang.String))" id="point1"/> -->
+			
+			<!-- 반환 타입 void, kr.co.sh.beans.TestBean1 클래스, method1, 매개변수 타입관계없이 2개일 때 -->
+			<!-- <aop:pointcut expression="execution(void kr.co.sh.beans.TestBean1.method1(*,*))" id="point1"/> -->
+			<!-- 반환 타입 void, kr.co.sh.beans.TestBean1 클래스, method1, 매개변수 첫번째만 정수형, 아무거나  총 2개일 때 -->
+			<!-- <aop:pointcut expression="execution(void kr.co.sh.beans.TestBean1.method1(int,*))" id="point1"/> -->
+			
+			<!-- 반환 타입 void, kr.co.sh.beans.TestBean1 클래스, method1, 매개변수 모든개수, 모든타입 -->
+			<!-- <aop:pointcut expression="execution(void kr.co.sh.beans.TestBean1.method1(..))" id="point1"/> -->
+			
+			<!-- 반환 타입 void, kr.co.sh.beans.TestBean1 클래스, 모든 메서드 : TestBean2 제외 확인-->
+			<!-- <aop:pointcut expression="execution(void kr.co.sh.beans.TestBean1.*(..))" id="point1"/> -->
+			
+			<!-- beans 패키지 내 모든 클래스, 모든 메서드 -->
+			<!-- <aop:pointcut expression="execution(void kr.co.sh.beans.*.*(..))" id="point1"/> -->
+			
+			<!-- beans 패키지 내 모든 클래스, method1, 모든것 -->
+			<aop:pointcut expression="execution(void kr.co.sh.beans.*.method1(..))" id="point1"/>
+			
+			
+		
+			<aop:before method="beforeMethod" pointcut-ref="point1"/>
+		</aop:aspect>
+	</aop:config>
+						
+</beans>

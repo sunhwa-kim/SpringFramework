@@ -1,0 +1,17 @@
+package kr.co.sh.config;
+
+import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.context.annotation.Lazy;
+
+import kr.co.sh.beans.TestBean1;
+
+@Configuration
+public class BeanConfigClass {
+
+	@Bean
+	@Lazy
+	public TestBean1 obj1() {
+		return new TestBean1();
+	}
+}

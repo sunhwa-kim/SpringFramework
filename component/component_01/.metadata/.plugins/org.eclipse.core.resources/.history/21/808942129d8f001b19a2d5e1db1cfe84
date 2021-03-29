@@ -1,0 +1,6 @@
+package kr.co.sh.beans2;
+
+@Component("bean4")
+public class TestBean4 {
+
+}

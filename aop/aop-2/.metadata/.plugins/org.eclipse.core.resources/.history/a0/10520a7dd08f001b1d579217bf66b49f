@@ -1,0 +1,8 @@
+package kr.co.sh.beans;
+
+public class TestBean1 {
+
+	public void method1() {
+		System.out.println(" > beans.TestBean1.method1()");
+	}
+}

@@ -1,0 +1,16 @@
+package kr.co.sh.beans;
+
+public class TestBean2 {
+
+	public TestBean2() {
+		System.out.println(" > 2 생성자");
+	}
+	
+	public void init2() {
+		System.out.println(" > 2 init method");
+	}
+	
+	public void destroy2() {
+		System.out.println(" > 2 destroy method");
+	}
+}

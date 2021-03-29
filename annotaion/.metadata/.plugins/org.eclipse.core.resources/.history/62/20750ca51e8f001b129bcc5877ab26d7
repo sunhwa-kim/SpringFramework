@@ -1,0 +1,9 @@
+package kr.co.sh.beans;
+
+public class DataBean4 {
+
+	private int data1;
+	private String data2;
+	private DataBean3 data3;
+	private DataBean4 data4;
+}

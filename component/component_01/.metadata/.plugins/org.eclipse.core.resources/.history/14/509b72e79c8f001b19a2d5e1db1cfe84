@@ -1,0 +1,63 @@
+package kr.co.sh.main;
+
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
+
+import kr.co.sh.beans.TestBean1;
+import kr.co.sh.beans.TestBean2;
+import kr.co.sh.beans2.TestBean3;
+import kr.co.sh.config.BeanConfigClass;
+
+public class MainClass {
+
+	public static void main(String[] args) {
+
+		ClassPathXmlApplicationContext ctx1 = new ClassPathXmlApplicationContext("kr/co/sh/config/beans.xml");
+		
+		TestBean1 xml1 = ctx1.getBean(TestBean1.class);
+		System.out.printf("xml1 : %s\n", xml1);
+		
+		System.out.println("----------------------------------------------");
+		
+		// 동일 타입
+		TestBean2 xml2 = ctx1.getBean("xml2", TestBean2.class);
+		System.out.printf("xml2 : %s\n", xml2);
+		TestBean2 xml3 = ctx1.getBean("xml3", TestBean2.class);
+		System.out.printf("xml3 : %s\n", xml3);
+		
+		System.out.println("----------------------------------------------");
+		// <context:component-scan base-package= ""/> 
+		// 타입 통한
+		TestBean3 xml4 = ctx1.getBean(TestBean3.class);
+		System.out.printf("xml4 : %s\n", xml4);
+		
+		System.out.println("----------------------------------------------");
+		
+		
+		
+		
+		
+		ctx1.close();
+		
+		System.out.println(" ================================================= ");
+		
+		AnnotationConfigApplicationContext ctx = new AnnotationConfigApplicationContext(BeanConfigClass.class);
+		// 타입
+		TestBean1 java1 = ctx.getBean(TestBean1.class);
+		System.out.printf("java1 : %s\n", java1);
+		
+		System.out.println("----------------------------------------------");
+		// 이름
+		TestBean2 java2 = ctx.getBean("java2", TestBean2.class);
+		System.out.printf("java2 :%s\n", java2); 
+		TestBean2 java3 = ctx.getBean("java3", TestBean2.class);
+		System.out.printf("java3 :%s\n", java3); 
+		
+		System.out.println("----------------------------------------------");
+		// Component
+		
+		ctx.close();
+		
+	}
+
+}

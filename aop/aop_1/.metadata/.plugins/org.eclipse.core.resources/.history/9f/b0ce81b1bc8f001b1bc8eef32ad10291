@@ -1,0 +1,12 @@
+package kr.co.sh.advisor;
+
+public class AdvisorClass {
+
+	public void beforeMethod() {
+		System.out.println(" > before method 호출");
+	}
+	
+	public void afterMethod() {
+		System.out.println(" > after method 호출");
+	}
+}
