@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move &apos;spring-logo-9146a4d3298760c2e7e49595184e1975.svg&apos; to &apos;images&apos;" description="Move &apos;spring-logo-9146a4d3298760c2e7e49595184e1975.svg&apos; to &apos;images&apos;" destination="WebContent/resources/images" element1="WebContent/resources/spring-logo-9146a4d3298760c2e7e49595184e1975.svg" flags="7" id="org.eclipse.ltk.core.refactoring.move.resources" resources="1" stamp="1617104296726" updateReferences="true"/>
+</session>

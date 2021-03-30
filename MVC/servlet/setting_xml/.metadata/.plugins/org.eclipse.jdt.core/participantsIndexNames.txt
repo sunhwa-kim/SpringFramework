@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1149421398.index
+\SpringMVCXml\src
+C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2762528251.index
+\SpringMVCXml\src

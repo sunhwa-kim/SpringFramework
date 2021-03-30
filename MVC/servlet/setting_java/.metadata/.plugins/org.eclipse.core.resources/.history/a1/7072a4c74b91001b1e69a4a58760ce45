@@ -1,0 +1,16 @@
+package kr.co.sh.config;
+
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.context.annotation.Configuration;
+import org.springframework.web.servlet.config.annotation.EnableWebMvc;
+import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
+
+// Spring MVC 프로젝트 관련 설정 클래스
+@Configuration
+// Controller 어노테이션 세팅된 클래스를 Controller로 등록
+@EnableWebMvc
+// 스캔할 패키지 지정
+@ComponentScan("kr.co.sh.controller")
+public class ServletAppContext implements WebMvcConfigurer{
+
+}

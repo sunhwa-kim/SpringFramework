@@ -1,0 +1,220 @@
+2021-03-29 22:30:27,258 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-29 22:36:02,392 [Worker-30: Enabling Maven Dependency Management] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: SpringMVCXml:SpringMVCXml:0.0.1-SNAPSHOT @ C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\pom.xml.
+2021-03-29 22:36:04,267 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-29 22:36:04,267 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-29 22:36:04,267 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-29 22:36:04,267 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-29 22:36:04,298 [Worker-30: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringMVCXml/src
+2021-03-29 22:36:04,298 [Worker-30: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /SpringMVCXml/src/test/java because it overlaps with /SpringMVCXml/src
+2021-03-29 22:36:04,735 [Worker-30: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2021-03-29 22:36:05,188 [Worker-30: Enabling Maven Dependency Management] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: SpringMVCXml:SpringMVCXml:0.0.1-SNAPSHOT @ C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\pom.xml.
+2021-03-29 22:36:06,094 [Worker-30: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /SpringMVCXml/src
+2021-03-29 22:36:06,094 [Worker-30: Enabling Maven Dependency Management] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Not adding source folder /SpringMVCXml/src/test/java because it overlaps with /SpringMVCXml/src
+2021-03-29 22:36:06,467 [Worker-30: Enabling Maven Dependency Management] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Cleaning filtered folder for SpringMVCXml
+2021-03-29 22:36:06,483 [Worker-30: Enabling Maven Dependency Management] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed: 1 sec
+2021-03-29 22:36:06,623 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-29 22:36:06,623 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-29 22:36:06,623 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-29 22:36:06,623 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-29 22:36:06,623 [Worker-30: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVCXml
+2021-03-29 22:36:06,623 [Worker-30: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVCXml
+2021-03-29 22:36:06,654 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-29 22:36:25,197 [Worker-30: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: SpringMVCStep1:SpringMVCStep1:0.0.1-SNAPSHOT @ C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\pom.xml.
+2021-03-29 22:36:26,072 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-29 22:36:26,072 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-29 22:36:26,072 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-29 22:36:26,072 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-29 22:36:26,072 [Worker-30: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVCXml
+2021-03-29 22:36:26,072 [Worker-30: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVCXml
+2021-03-29 22:36:26,072 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-29 22:36:44,075 [Worker-32: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.maven.ide.eclipse.wtp.WarLifecycleMapping lifecycle mapping for MavenProject: SpringMVCXml:SpringMVCXml:0.0.1-SNAPSHOT @ C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\pom.xml.
+2021-03-29 22:36:44,809 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-29 22:36:44,809 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-29 22:36:44,809 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-29 22:36:44,825 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-29 22:36:44,825 [Worker-32: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Changed resources require a complete clean of filtered resources of SpringMVCXml
+2021-03-29 22:36:44,825 [Worker-32: Building] INFO  o.e.m.w.i.f.ResourceFilteringBuildParticipant - Executing resource filtering for SpringMVCXml
+2021-03-29 22:36:44,825 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-29 22:46:05,487 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-29 22:46:05,487 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-29 22:46:05,487 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-29 22:46:05,487 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-29 22:49:12,037 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-29 22:49:12,037 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-29 22:49:12,037 [Worker-28: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-29 22:49:12,037 [Worker-28: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-29 22:51:49,687 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-29 22:51:49,687 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-29 22:51:49,687 [Worker-38: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-29 22:51:49,687 [Worker-38: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-29 22:51:52,920 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-29 22:51:52,920 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-29 22:51:52,920 [Worker-39: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-29 22:51:52,920 [Worker-39: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-29 22:55:11,328 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-29 22:55:11,328 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-29 22:55:11,328 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-29 22:55:11,328 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-29 22:56:42,738 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-29 22:56:42,738 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-29 22:56:42,738 [Worker-45: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-29 22:56:42,738 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-29 22:57:04,373 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-29 22:57:04,389 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-29 22:57:04,389 [Worker-43: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-29 22:57:04,389 [Worker-43: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-29 22:57:13,738 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-29 22:57:13,738 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-29 22:57:13,738 [Worker-44: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-29 22:57:13,738 [Worker-44: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-29 23:03:59,634 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-29 23:03:59,634 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-29 23:03:59,634 [Worker-40: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-29 23:03:59,634 [Worker-40: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-29 23:04:31,065 [Worker-49: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-29 23:04:31,065 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-29 23:04:31,065 [Worker-49: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-29 23:04:31,065 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-29 23:08:27,062 [Worker-50: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-29 23:08:27,062 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-29 23:08:27,062 [Worker-50: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-29 23:08:27,078 [Worker-50: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-30 00:07:25,890 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-30 00:07:31,140 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:07:31,156 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-30 00:07:31,171 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:07:31,171 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-30 00:10:11,210 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:10:11,211 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-30 00:10:11,213 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:10:11,215 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-30 00:10:33,438 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:10:33,440 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-30 00:10:33,442 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:10:33,443 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-30 00:11:29,642 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:11:29,643 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-30 00:11:29,646 [Worker-18: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:11:29,647 [Worker-18: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-30 00:15:31,661 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:15:31,662 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-30 00:15:31,663 [Worker-7: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:15:31,665 [Worker-7: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-30 00:19:59,514 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:19:59,515 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-30 00:19:59,517 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:19:59,518 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-30 00:21:13,868 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:21:13,869 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-30 00:21:13,871 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:21:13,871 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-30 00:21:47,303 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:21:47,304 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-30 00:21:47,306 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:21:47,307 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-30 00:23:55,083 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:23:55,084 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-30 00:23:55,085 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:23:55,086 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-30 00:24:34,416 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:24:34,416 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-30 00:24:34,417 [Worker-27: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:24:34,418 [Worker-27: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-30 00:24:47,020 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:24:47,020 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-30 00:24:47,021 [Worker-26: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:24:47,022 [Worker-26: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-30 00:25:22,672 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:25:22,674 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-30 00:25:22,675 [Worker-10: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:25:22,676 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-30 00:30:22,056 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:30:22,057 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-30 00:30:22,058 [Worker-24: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:30:22,058 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-30 00:31:57,388 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:31:57,389 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-30 00:31:57,390 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:31:57,391 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-30 00:33:02,776 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:33:02,777 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-30 00:33:02,778 [Worker-32: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:33:02,779 [Worker-32: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-30 00:33:26,685 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:33:26,686 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-30 00:33:26,689 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:33:26,690 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-30 00:35:27,587 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:35:27,588 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-30 00:35:27,589 [Worker-30: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:35:27,590 [Worker-30: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-30 00:37:31,273 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:37:31,274 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-30 00:37:31,275 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:37:31,276 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-30 00:38:45,067 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:38:45,068 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-30 00:38:45,069 [Worker-34: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:38:45,070 [Worker-34: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-30 00:40:57,159 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:40:57,160 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-30 00:40:57,162 [Worker-15: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:40:57,163 [Worker-15: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-30 00:41:35,424 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:41:35,425 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-30 00:41:35,425 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:41:35,426 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-30 00:41:57,849 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:41:57,849 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-30 00:41:57,850 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:41:57,851 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-30 00:42:06,372 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:42:06,373 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-30 00:42:06,374 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:42:06,374 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-30 00:42:17,011 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:42:17,012 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-30 00:42:17,014 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:42:17,015 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-30 00:42:45,068 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:42:45,068 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-30 00:42:45,069 [Worker-33: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:42:45,070 [Worker-33: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-30 00:46:09,928 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:46:09,928 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-30 00:46:09,929 [Worker-36: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:46:09,930 [Worker-36: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-30 00:46:44,091 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:46:44,092 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-30 00:46:44,093 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:46:44,094 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-30 00:47:40,311 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:47:40,312 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-30 00:47:40,313 [Worker-5: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:47:40,314 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-30 00:48:51,213 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:48:51,214 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-30 00:48:51,214 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:48:51,215 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-30 00:49:53,334 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:49:53,335 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-30 00:49:53,335 [Worker-35: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:49:53,336 [Worker-35: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-30 00:50:04,291 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:50:04,292 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-30 00:50:04,293 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:50:04,294 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-30 00:51:10,945 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:51:10,946 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-30 00:51:10,948 [Worker-31: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:51:10,949 [Worker-31: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-30 00:51:58,187 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:51:58,188 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-30 00:51:58,189 [Worker-37: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 00:51:58,189 [Worker-37: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-30 07:54:15,082 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2021-03-30 08:28:25,681 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 08:28:25,683 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\main\resources
+2021-03-30 08:28:25,685 [Worker-25: Building] WARN  o.e.m.c.i.embedder.EclipseLogger - Using platform encoding (MS949 actually) to copy filtered resources, i.e. build is platform dependent!
+2021-03-30 08:28:25,686 [Worker-25: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\shkim\Desktop\springMVC\servlet\setting_xml\SpringMVCXml\src\test\resources
+2021-03-30 21:27:17,546 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

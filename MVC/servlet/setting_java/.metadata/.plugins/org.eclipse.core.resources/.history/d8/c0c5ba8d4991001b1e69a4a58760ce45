@@ -1,0 +1,5 @@
+package kr.co.sh.config;
+
+public class SpringConfigClass {
+
+}
